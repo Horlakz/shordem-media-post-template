@@ -19,20 +19,32 @@ body{
 
 .page-title {
     position: relative;
-    top: -280px;
+    top: -17.5rem;
     color: rgb(248, 79, 0);
     background: rgb(39, 38, 38);
-    padding: 10px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+    padding: 0.625rem;
+    border-radius: 0.625rem;
+    box-shadow: 0px 0.3125rem 0.5rem rgba(0, 0, 0, 0.3);
+}
+
+.page-title p{
+    color: rgb(245, 206, 179);
+}
+
+@media (max-height: 900px) {
+    .page-title {
+        width: 22rem;
+        top: -17rem;
+        font-size: 0.725rem;
+    }
 }
 
 .image {
     background-image: url('movie.jpg');
     background-repeat: no-repeat;
     /* background-clip: border-box; */
-    background-size: 300px 300px;
-    height: 290px;
+    background-size: 18.75rem 18.75rem;
+    height: 18.125rem;
     background-position: top;
     margin: 0;
 }
@@ -50,25 +62,25 @@ img {
 
 .container {
     background-color: rgb(201, 198, 198);
-    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
+    box-shadow: 0px 0.3125rem 0.5rem rgba(0, 0, 0, 0.3);
+    border-radius: 0.625rem;
     overflow: hidden;
-    width: 300px;
+    width: 18.75rem;
     position: absolute;
 }
 
 .movie-title {
     position: relative;
     color: rgb(230, 73, 0);
-    top: -285px;
-    left: 20px;
-    padding: 5px;
+    top: -17.8125rem;
+    left: 1.25rem;
+    padding: 0.3125rem;
     margin: 0;
 }
 
 .content {
-    padding: 10px;
-    height: 80px;
+    padding: 0.625rem;
+    height: 5rem;
     cursor: pointer;
     overflow-x: none;
     overflow-y: auto;
@@ -77,7 +89,7 @@ img {
 
 .download-btn {
     background-color: rgb(167, 77, 77);
-    font-size: 25px;
+    font-size: 1.5625rem;
     border: none;
     width: 100%;
     padding: 10px;
