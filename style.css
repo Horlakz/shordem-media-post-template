@@ -17,6 +17,16 @@ body{
     height: 100vh;
 }
 
+.page-title {
+    position: relative;
+    top: -280px;
+    color: rgb(248, 79, 0);
+    background: rgb(39, 38, 38);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 8px rgba(0, 0, 0, 0.3);
+}
+
 .image {
     background-image: url('movie.jpg');
     background-repeat: no-repeat;
